@@ -5,6 +5,22 @@ export const CAKE: { [chainId: number]: Token } = {
     ChainId.MAINNET,
     '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     18,
+    'SUGAR',
+    'SugarSwap Token',
+  ),
+  [ChainId.TESTNET]: new Token(
+    ChainId.TESTNET,
+    '0xa35062141Fa33BCA92Ce69FeD37D0E8908868AAe',
+    18,
+    'CAKE',
+    'PancakeSwap Token',
+  ),
+}
+export const CAKE: { [chainId: number]: Token } = {
+  [ChainId.MAINNET]: new Token(
+    ChainId.MAINNET,
+    '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    18,
     'CAKE',
     'PancakeSwap Token',
   ),
@@ -63,6 +79,15 @@ const tokens = {
   bnb: {
     symbol: 'BNB',
     projectLink: 'https://www.binance.com/',
+  },
+  sugar: {
+    symbol: 'SUGAR',
+    address: {
+      56: '0x48abef56c518fbe11c529b1053841034a154ac1f',
+      97: '',
+    },
+    decimals: 18,
+    projectLink: 'https://sugarswap.trade/',
   },
   cake: {
     symbol: 'CAKE',
