@@ -3,7 +3,7 @@ import { ChainId, Token } from '@pancakeswap/sdk'
 export const SUGAR: { [chainId: number]: Token } = {
   [ChainId.MAINNET]: new Token(
     ChainId.MAINNET,
-    '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    '0x48abef56c518fbe11c529b1053841034a154ac1f',
     18,
     'SUGAR',
     'SugarSwap Token',
